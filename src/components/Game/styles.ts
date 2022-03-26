@@ -35,5 +35,13 @@ export const List = styled.ul`
     &:hover{
       font-size: 18px;
     }
+    h1{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      text-transform: uppercase;
+    }
   }
 `
