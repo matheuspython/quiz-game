@@ -1,21 +1,21 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Image, List, Question } from './styles';
 import { questions } from '../../Utils/questions';
 
 
-export const Game: React.FC = () => {
+export const Game: React.FC = ({ }) => {
   return (
     <Container>
       <div className="imgs">
-        <img src="http://github.com/naruto.png" alt="imagem com foto da questão" />
+        <Image src="http://github.com/naruto.png" alt="imagem com foto da questão" />
       </div>
-      <h1>pergunta</h1>
-      <ul>
+      <Question>pergunta</Question>
+      <List>
         <li>resporta 1</li>
         <li>resposta 2</li>
         <li>resposta 3</li>
-      </ul>
+      </List>
     </Container>
   )
 }
