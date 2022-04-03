@@ -11,7 +11,7 @@ export const Rotas:React.FC = ()=> {
     <>
       <Routes>
         <Route path='/' element={<Home/>} />
-        {/* <Route path='/quiz' element={<Quiz />} /> */}
+        <Route path='quiz' element={<Quiz />} />
       </Routes>
     </>  
   )
