@@ -14,7 +14,7 @@ export const QuizList: React.FC<PostProps> = ({ img, question }) => {
     <Container>
       <h1>{question}</h1>
       <img src={img} alt={question} />
-      <Link to="quiz" >oie</Link>
+      <Link to="quiz" >jogar</Link>
     </Container>
   )
 }

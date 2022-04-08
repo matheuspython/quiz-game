@@ -21,4 +21,15 @@ export const Container = styled.li`
       width: calc(100% + 5px);
     }
   }
+  a{
+    color: #fff;
+    /* text-decoration: none; */
+    margin: 15px auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: .4s;
+    &:hover{
+      font-size: 40px;
+    }
+  }
 `;
